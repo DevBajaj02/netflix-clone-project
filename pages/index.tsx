@@ -1,3 +1,4 @@
+import Billboard from "@/components/Billboard";
 import Navbar from "@/components/Navbar";
 import { getSession } from "next-auth/react"
 import { NextPageContext } from "next/types"
@@ -24,6 +25,7 @@ export default function Home() {
   return (
     <>
       <Navbar />
+      <Billboard />
     </>
   )
 }
