@@ -8,7 +8,8 @@ const useBillboard=()=>{
         revalidateOnFocus: false,
         revalidateOnReconnect: false,
     })
-
+    console.log(data,666)
+    console.log(error,666)
     return {
         data,
         error,

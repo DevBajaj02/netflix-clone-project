@@ -23,7 +23,7 @@ export async function getServerSideProps(context:NextPageContext) {
     props: {}
   }
 }
-export default function Home() {
+const Home = () => {
   const { data: movies = []}=useMovieList();
   return (
     <>
@@ -35,3 +35,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home;
