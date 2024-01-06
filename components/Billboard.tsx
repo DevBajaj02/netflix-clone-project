@@ -12,6 +12,7 @@ const Billboard = () => {
                 w-full
                 h-[56.25vw]
                 object-cover
+                transition
                 brightness-[60%]
             "
                 autoPlay
